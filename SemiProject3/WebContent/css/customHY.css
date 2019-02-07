@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* #maxwidth{max-width:1920px;} */
+#indexPage{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.selector img{
+position: absolute; top:0; left: 0;
+width: 100%;
+height: 100%;
+}
+/************ header *************/
+.verticalMenu{
+	float:left; 
+	margin: 20px 0; 
+	padding: 0;	
+}
+/************ footer ************/
+.footerTop{
+	border-top: 1px solid lightgray; 
+	background-color: white;
+}
+.footerBottom{
+	border-bottom: 1px solid lightgray;
+	height: 46px;
+}
+.footerSection{
+	float:left;
+	width: 25%;
+	margin: 2% 0;
+	height: 180px;
+	padding: 0 2%;
+	border-right: 1px solid #e6e6e6;
+}
+.footerSection>p{
+	font-size:0.8em;
+	line-height: 200%;
+}
+.circleicon{
+	padding: 12.5px;
+	background-color: #e6e6e6; 
+	border-radius:25px;
+	height:50px; 
+	width:50px;
+	margin: 5px;
+}
+.circleicon:hover{
+	background-color: rgb(54,54,54); 
+	transition: 0.5s all;
+}
+.circleicon{
+	position: relative;
+	right: 10px;
+	fill: white;
+}
+.iconbox{
+	width: 20%;
+	align:center;
+	padding-right: 10%;
+}
+.iconbox>p{
+	text-align:center;
+	font-size: 0.7em;
+}
+.iconbox>p>span{
+	color: lightgray;	
+}
+
+/****** orderForm ******/
+.orderTableLabel{
+	width: 15%;
+	border-right: 1px solid lightgray;
+}
+.orderTabelRow{
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray; 
+	height: 40px;
+}
+.orderTableInput{
+	float:left; margin-left: 2%; border: 1px solid lightgray
+}
